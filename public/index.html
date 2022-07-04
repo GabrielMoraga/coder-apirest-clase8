@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Productos</title>
+</head>
+<body>
+
+    Desafío clase 8 -- Gabriel Moraga
+<div class="container">  
+  <form id="contact" action="/api/productos" method="post">
+    <h3>Ingreso de Productos</h3>
+    <fieldset>
+      <input name="title" placeholder="Nombre del producto" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input name="price" placeholder="Precio" type="text" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input name="thumbnail" placeholder="url al logo o foto del producto" type="text" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <button type="submit" id="contact-submit" data-submit="...Sending">Agregar</button>
+    </fieldset>
+  </form>
+    
+</body>
+</html>
